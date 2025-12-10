@@ -1,0 +1,12 @@
+# Retirement Income App
+
+A Streamlit-based web application for calculating retirement income options:
+- Lump-sum withdrawal
+- Periodic withdrawal
+- Mixed strategy
+
+This app was created for AIS (Accounting Information Systems) teaching purposes,
+demonstrating how Excel models can be translated into open-source applications
+using Python and Streamlit.
+
+## Run locally
