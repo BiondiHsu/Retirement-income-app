@@ -16,7 +16,7 @@ Run:
 import io
 import math
 import os
-from turtle import color
+# from turtle import color
 from typing import Any, Dict, Optional, Tuple
 
 import numpy as np
@@ -583,4 +583,5 @@ st.markdown("""
 | *T̂* | Estimated total misstatement | 總誤差估計 |
 | *L*, *U* | Lower / Upper bound | 區間下限 / 上限 |
 """)
+
 
