@@ -279,6 +279,25 @@ with st.sidebar:
 
     run = st.button("執行分析 / Run Analysis")
 
+# === UI 美化：Green Audit 主題 ===
+st.markdown("""
+<style>
+    .main {
+        background-color: #F9FFFB;
+    }
+    div[data-testid="stSidebar"] {
+        background-color: #E7F7EE;
+    }
+    .metric-container {
+        background: #ffffff;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #d8e8df;
+        margin-bottom: 10px;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 if run:
     if file is None:
         st.error("請先上傳 Excel。Please upload an Excel file first.")
@@ -583,5 +602,4 @@ st.markdown("""
 | *T̂* | Estimated total misstatement | 總誤差估計 |
 | *L*, *U* | Lower / Upper bound | 區間下限 / 上限 |
 """)
-
 
